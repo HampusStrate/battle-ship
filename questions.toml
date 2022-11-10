@@ -30,35 +30,28 @@ alternatives = [
 ]
 
 [[easy.questions]]
-question = "What does dict.get(key) return if key isn't found in dict"
-answers = ["None"]
-alternatives = ["key", "True", "False"]
-
-[[easy.questions]]
-question = "How do you iterate over both indices and elements in an iterable"
-answers = ["enumerate(iterable)"]
+question = "What was the name of the first programing language?"
+answers = ["Algorithm for the analytical Engine"]
 alternatives = [
-    "enumerate(iterable, start=1)",
-    "range(iterable)",
-    "range(iterable, start=1)",
+    "HTML", 
+    "Javascript", 
+    "Fortran"
 ]
 
 [[easy.questions]]
-question = "What's the official name of the := operator"
-answers = ["Assignment expression"]
+question = "What is CSS used for?"
+answers = ["Style the code"]
 alternatives = [
-    "Named expression",
-    "Walrus operator",
-    "Colon equals operator",
+    "Auto correct",
+    "Change the codes structure",
+    "Closes the code",
 ]
 
 [[easy.questions]]
-question = "What's one effect of calling random.seed(42)"
-answers = ["The random numbers are reproducible."]
+question = "HTML and CSS workes very good togheter?"
+answers = ["True"]
 alternatives = [
-    "The random numbers are more random.",
-    "The computer clock is reset.",
-    "The first random number is always 42.",
+    "False",
 ]
 
 [[easy.questions]]
@@ -67,24 +60,17 @@ answers = ["python quiz.py", "python -m quiz"]
 alternatives = ["python quiz", "python -m quiz.py"]
 
 [[easy.questions]]
-question = "What's the name of the list-like data structure in TOML"
-answers = ["Array"]
-alternatives = ["List", "Sequence", "Set"]
-
-
-[[easy.questions]]
-question = "How can you add a docstring to a function"
+question = "What is the diffrent between and 'UL' and 'OL' in HTML?"
 answers = [
-    "By writing a string literal as the first statement in the function",
+    "UL is an unorderd list and OL is an orderd list",
 ]
 alternatives = [
-    "By using the built-in @docstring decorator",
-    "By returning a string from the function",
+    "There is no diffrence",
+    "UL stands for underline and OL stands for overline",
 ]
 
 [normal]
 label = "Normal Mode"
-
 
 [[normal.questions]]
 question = "Which version of Python is the first with TOML support built in"
@@ -94,15 +80,6 @@ alternatives = [
     "3.10", 
     "3.12"
 ]
-
-[[normal.questions]]
-question = "What's the capital of Norway"
-answers = ["Oslo"]
-
-[[normal.questions]]
-question = "What's the state capital of Texas, USA"
-answers = ["Austin"]
-alternatives = ["Harrisburg", "Houston", "Galveston", "Columbia"]
 
 [hard]
 label = "Hard Mode"
@@ -119,7 +96,11 @@ alternatives = [
 [[hard.questions]]
 question = "When was the first public version of Python released"
 answers = ["February 1991"]
-alternatives = ["January 1994", "October 2000", "December 2008"]
+alternatives = [
+    "January 1994", 
+    "October 2000", 
+    "December 2008"
+]
 
 [[hard.questions]]
 question = "What's a PEP"
