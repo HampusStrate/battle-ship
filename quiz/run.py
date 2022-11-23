@@ -6,7 +6,7 @@ try:
 except ModuleNotFoundError:
     import tomli as tomllib
 
-NUM_QUESTIONS_PER_QUIZ = 10
+NUM_QUESTIONS_PER_QUIZ = 8
 QUESTIONS_PATH = pathlib.Path(__file__).parent / "questions.toml"
 
 def run_quiz():
